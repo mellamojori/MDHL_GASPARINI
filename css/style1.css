@@ -11,9 +11,10 @@ img {
 
 #banner1 {
     width: 100%;
-    height: 230px;
+    height: 15rem;
     object-fit: cover;
-    object-position: 0% 80% /*es una decisión conciente que solo se vean los pies*/
+    object-position: 0% 80%
+        /*It is an aesthetic decision to show only the skates and the hockey puck.*/
 }
 
 #banner2 {
@@ -21,14 +22,14 @@ img {
 }
 
 #logo {
-    width: 20%;
-    height: 24%;
+    width: 20rem;
+    height: 11rem;
     object-fit: cover;
     object-position: 0% 17%;
     z-index: 1;
     position: absolute;
-    top: 180px;
-    right: 85px;
+    top: 12rem;
+    right: 4rem;
 }
 
 main img {
@@ -36,10 +37,11 @@ main img {
 }
 
 h1 {
+    font-weight: normal;
     position: absolute;
     top: 0px;
-    left: 10px;
-    font-size: 80px;
+    left: 1rem;
+    font-size: 70px;
 }
 
 h2 {
@@ -50,16 +52,17 @@ h2 {
     font-size: 40px;
 }
 
-nav{
+nav {
     position: absolute;
-    top:350px;
+    top: 22rem;
 }
 
 nav a {
-    font-size: 20px;
+    font-size: 18px;
     display: block;
-    margin: 0px 20px;
-    padding-bottom: 50px
+    color: blue;
+    margin-left: 1rem;
+    padding-bottom: 3.5rem;
 }
 
 [href="#"] {
@@ -69,28 +72,39 @@ nav a {
 
 article {
     position: relative;
-    top:50px;
-    font-size: 22px;
-    margin-bottom:20px;
-    margin-right: 220px;;
-    margin-left: 280px;    
+    font-size: 18px;
+    margin-bottom: 1rem;
 }
 
 article>h3 {
     font-weight: bolder;
+    font-size: 25px;
 }
 
 article>p {
     text-indent: 35px;
 }
 
-div{
-    font-size: 22px;
-    position: relative;
-    padding-top: 50px;
-    margin-left: 280px; 
+.about {
+    margin-top: 3rem;
 }
 
-div>p{
-    padding-top: 20px;
+.about>article {
+    font-size: 18px;
+    margin-left: 12rem;
+    margin-right: 6rem;
+}
+
+.events>article {
+    margin: 3rem 17rem;
+}
+
+.contact {
+    font-size: 22px;
+    position: relative;
+    margin: 3rem 12rem;
+}
+
+div>p {
+    padding-top: 1rem;
 }

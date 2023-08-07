@@ -15,28 +15,29 @@ img {
 
 #banner2 {
     width: 100%;
-    height: 35vh;
+    height: 18rem;
     object-fit: cover;
-    object-position: 0% 48%;
+    object-position: 0% 32%;
     position: relative;
 }
 
 h1 {
     position: relative;
-    top: 0px;
-    font-size: 55px;
+    font-size: 68px;
     font-style: oblique;
     font-weight: lighter;
     word-spacing: 18px;
 }
 
 #logo {
+    position: absolute;
+    left: -3rem;
+    /*Had to use a negative value to move the logo closer to the left margin due the proportions of the image.*/
     width: 20%;
-    height: 24%;
+    height: 20%;
     object-fit: cover;
     object-position: 0% 20%;
-    position: absolute;
-    margin-top: 50px;
+    margin-top: 3rem;
 }
 
 main img {
@@ -45,7 +46,7 @@ main img {
 
 h2 {
     position: absolute;
-    top:260px;
+    top: 20.2rem;
     width: 100%;
     z-index: 1;
     border-style: solid;
@@ -74,7 +75,7 @@ nav a {
     box-shadow: 5px 5px grey;
 }
 
-.mdhl{
+.mdhl {
     display: none
 }
 
@@ -84,27 +85,41 @@ nav a {
 
 article {
     position: relative;
-    font-size: 22px;
-    padding-top: 50px;
-    margin-left: 350px;    
+    font-size: 18px;
+    margin-bottom: 1rem;
 }
 
 article>h3 {
     font-weight: bolder;
-    font-style: italic;
+    font-size: 22px;
 }
 
 article>p {
-    text-indent: 25px;
+    text-indent: 1rem;
+    ;
 }
 
-div{
+.about {
+    margin-top: 3rem;
+}
+
+.about>article {
+    font-size: 16px;
+    margin-left: 15rem;
+    margin-right: 3rem;
+    /*Reduced the right margin to avoid vertical scrolling that´s why the line breaks don´t respect the sketch*/
+}
+
+.events>article {
+    margin: 3rem 17rem 1rem;
+}
+
+.contact {
     font-size: 22px;
     position: relative;
-    padding-top: 50px;
-    margin-left: 350px; 
+    margin: 3rem 17rem;
 }
 
-div>p{
-    padding-top: 20px;
+div>p {
+    padding-top: 1rem;
 }
