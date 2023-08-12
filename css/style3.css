@@ -54,7 +54,7 @@ nav {
     background-position-y: 87%;
 }
 
-nav a {
+nav>a {
     background-color: yellow;
     text-decoration: none;
     color: rgb(53, 50, 50);
@@ -62,13 +62,13 @@ nav a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.35rem;
     text-transform: uppercase;
-    padding: 0px 7px;
+    padding: 2px 7px;
     margin: 0px 10px;
     border-style: solid;
     border-color: rgb(228, 98, 23);
     border-width: 0.2rem;
-    box-shadow: rgb(153, 192, 192);
-    height: 4vh;
+    box-shadow: 0.5vh 0.5vh rgba(153, 192, 192);
+    height: 5vh;
 }
 
 .mdhl {
@@ -76,11 +76,13 @@ nav a {
 }
 
 [href="#"] {
-    height: 5vh;
+    height: 6vh;
     background-color: yellow;
     border-color: rgb(228, 98, 23);
     color: rgb(16, 114, 105);
-    font-size: 25px;
+    font-size: 26px;
+    padding: 3px 7px;
+    margin: 0px 10px;
 }
 
 .main-title {
