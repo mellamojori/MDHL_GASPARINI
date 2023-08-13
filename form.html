@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form | MDHL Registration Form</title>
+    <title>Join the Team | MDHL Registration Form</title>
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style3.css">
 </head>
@@ -164,13 +164,13 @@
                 <label>
                     <select name="uniform-size">
                         <option value="" selected disabled>--Please Select--</option>
-                        <option value="y-s">Youth Small</option>
-                        <option value="y-m">Youth Medium</option>
-                        <option value="y-l">Youth Large</option>
-                        <option value="s">Small</option>
-                        <option value="m">Medium</option>
-                        <option value="l">Large</option>
-                        <option value="xl">Extra-Large</option>
+                        <option value="y-small">Youth Small</option>
+                        <option value="y-medium">Youth Medium</option>
+                        <option value="y-large">Youth Large</option>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                        <option value="xlarge">Extra-Large</option>
                     </select>                
                 </label>
             </fieldset>
@@ -194,14 +194,15 @@
                     I have read the cancellation policy and agree to its terms.
                 </p>
                 <label>
-                    <input type="checkbox" required name="agree" value="agree">
+                    <input type="checkbox" required name="check-agree" value="agree">
                     <span>I agree and authorize the above.</span>
                 </label>
             </fieldset>
             <fieldset>
                 <label>
                     <span>Parent or guardin's name:</span>
-                    <input type="text" name="sign" required placeholder="Enter your name in order to agree and authorize the above">
+                    <textarea name="sign" cols="55" rows="1" required placeholder="--Enter your name in order to agree and authorize the above--"></textarea>
+                    <!-- <input type="text" name="sign" required placeholder="Enter your name in order to agree and authorize the above"> -->
                 </label>
             </fieldset>          
             <input type="submit" value="Submit">

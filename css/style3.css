@@ -300,10 +300,10 @@ td{
     border-collapse: collapse; */
 }
 
-.teams {
-    /* padding-bottom: 0.1; */
-    /* padding-bottom: 0.5rem; */
-}
+/* .teams {
+    padding-bottom: 0.1;
+    padding-bottom: 0.5rem;
+} */
 
 .date {
     text-align: center;
